@@ -7,29 +7,31 @@
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="flex flex-col min-h-screen">
-    <header class="fixed top-0 left-0 w-full bg-pink-200 p-4 shadow-md z-50">
-        <nav class="flex justify-center space-x-6">
-            <a href="index.html" class="nav-link">Home</a>
-            <a href="about.html" class="nav-link">About</a>
-            <a href="projects.html" class="nav-link">Projects</a>
-            <a href="skills.html" class="nav-link">Skills</a>
-            <a href="contact.html" class="nav-link">Contact</a>
+<body class="flex flex-col min-h-screen bg-pink-100">
+    <header class="fixed top-0 left-0 w-full bg-pink-200 p-6 shadow-md z-50">
+        <nav class="flex justify-center space-x-8">
+            <a href="index.html" class="nav-link text-lg font-medium hover:text-pink-600 transition-colors">Home</a>
+            <a href="about.html" class="nav-link text-lg font-medium hover:text-pink-600 transition-colors">About</a>
+            <a href="projects.html" class="nav-link text-lg font-medium hover:text-pink-600 transition-colors">Projects</a>
+            <a href="skills.html" class="nav-link text-lg font-medium hover:text-pink-600 transition-colors">Skills</a>
+            <a href="contact.html" class="nav-link text-lg font-medium hover:text-pink-600 transition-colors">Contact</a>
         </nav>
     </header>
     
-    <main class="flex-grow bg-pink-100 flex items-center justify-center">
-        <section id="home" class="section home text-center">
-            <div>
-                <img src="img/me.jpg" alt="Alyn Fate" class="w-40 mx-auto rounded-full mb-6">
-                <h1 class="text-4xl font-bold text-pink-600">Hi! I'm Alyn Fate</h1>
-                <p class="text-gray-700">Creative, designer, and entrepreneur.</p>
+    <main class="flex-grow flex items-center justify-center pt-32 pb-16">
+        <section id="home" class="text-center">
+            <div class="space-y-8">
+                <img src="img/me.jpg" alt="Alyn Fate" class="w-64 h-64 mx-auto rounded-full object-cover shadow-lg">
+                <h1 class="text-6xl font-bold text-pink-600">Hi! I'm Alyn Fate</h1>
+                <p class="text-2xl text-gray-700">Creative, designer, and entrepreneur.</p>
+                <a href="about.html" class="inline-block mt-6 text-2xl text-pink-600 hover:text-pink-700 transition-colors">Get to know more about me →</a>
             </div>
         </section>
     </main>
     
-    <footer class="bg-pink-300 text-white text-center p-6 mt-auto">&copy; 2025 Alyn Fate Villa. All Rights Reserved.</footer>
+    <footer class="bg-pink-300 text-white text-center p-8 mt-auto">
+        <p class="text-lg">&copy; 2025 Alyn Fate Villa. All Rights Reserved.</p>
+    </footer>
     <script src="script.js"></script>
-
 </body>
 </html>
