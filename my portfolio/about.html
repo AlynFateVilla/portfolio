@@ -7,32 +7,33 @@
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="flex flex-col min-h-screen">
-    <header class="fixed top-0 left-0 w-full bg-pink-200 p-4 shadow-md z-50">
-        <nav class="flex justify-center space-x-6">
-            <a href="index.html" class="nav-link">Home</a>
-            <a href="about.html" class="nav-link">About</a>
-            <a href="projects.html" class="nav-link">Projects</a>
-            <a href="skills.html" class="nav-link">Skills</a>
-            <a href="contact.html" class="nav-link">Contact</a>
+<body class="flex flex-col min-h-screen bg-pink-100">
+    <header class="fixed top-0 left-0 w-full bg-pink-200 p-6 shadow-md z-50">
+        <nav class="flex justify-center space-x-8">
+            <a href="index.html" class="nav-link text-lg font-medium hover:text-pink-600 transition-colors">Home</a>
+            <a href="about.html" class="nav-link text-lg font-medium hover:text-pink-600 transition-colors">About</a>
+            <a href="projects.html" class="nav-link text-lg font-medium hover:text-pink-600 transition-colors">Projects</a>
+            <a href="skills.html" class="nav-link text-lg font-medium hover:text-pink-600 transition-colors">Skills</a>
+            <a href="contact.html" class="nav-link text-lg font-medium hover:text-pink-600 transition-colors">Contact</a>
         </nav>
     </header>
     
-    <main class="flex-grow bg-pink-100 flex items-center justify-center">
-        <section id="about" class="section about text-center max-w-4xl p-10">
-            <div>
-                <h2 class="text-4xl font-bold text-pink-600">About Me</h2>
-                <p class="text-gray-700 mt-4">I am an artist, designer, and entrepreneur with a passion for creativity. 
+    <main class="flex-grow flex items-center justify-center pt-32 pb-16">
+        <section id="about" class="text-center max-w-4xl px-6">
+            <div class="space-y-8">
+                <h2 class="text-6xl font-bold text-pink-600">About Me</h2>
+                <p class="text-2xl text-gray-700">I am an artist, designer, and entrepreneur with a passion for creativity. 
                     I also run a small business making handcrafted fuzzy wire flowers!</p>
-                <p class="text-gray-700 mt-4">My work explores the fusion of art and technology, pushing the boundaries of traditional design. 
+                <p class="text-2xl text-gray-700">My work explores the fusion of art and technology, pushing the boundaries of traditional design. 
                     I am constantly evolving my skills to create visually compelling and interactive experiences.</p>
-                <p class="text-gray-700 mt-4">Outside of work, I find joy in exploring new artistic techniques, reading, and connecting with like-minded creatives.</p>
+                <p class="text-2xl text-gray-700">Outside of work, I find joy in exploring new artistic techniques, reading, and connecting with like-minded creatives.</p>
             </div>
         </section>
     </main>
     
-    <footer class="bg-pink-300 text-white text-center p-6 mt-auto w-full">&copy; 2025 Alyn Fate Villa. All Rights Reserved.</footer>
+    <footer class="bg-pink-300 text-white text-center p-8 mt-auto">
+        <p class="text-lg">&copy; 2025 Alyn Fate Villa. All Rights Reserved.</p>
+    </footer>
     <script src="script.js"></script>
-
 </body>
 </html>
